@@ -5,7 +5,7 @@ project:
     - file: index.md
     - file: intro.md
 
-    
+    # Github #
     - file: Content/Github/uitleg.md
       children:
         - file: Content/Github/1_intro.md
@@ -32,7 +32,7 @@ project:
             - title: VSC
               url: https://teachbooks.io/learn-programming/workflows/git/vscode
 
-
+    # simulaties #
     - title: Simulaties
       file: Content/PySim/uitleg.md
       children:
@@ -42,10 +42,11 @@ project:
         - file: Content/PySim/4_brownianmotion.ipynb
         - file: Content/PySim/5_druktemp.ipynb
         - file: Content/PySim/6_boltzmann.ipynb
-        # - file: Content/PySim/7_arbeid.ipynb
+        - file: Content/PySim/7_arbeid.ipynb
         # - file: Content/PySim/8_thermostaat.ipynb
         # - file: Content/PySim/9_entropie.ipynb
 
+    # labs #
     - title: Labs
       file: Content/Labs/uitleg.md
       children:
